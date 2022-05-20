@@ -1,12 +1,12 @@
 # make-password
 
 Small Ruby script to generate random passwords in the vein of "correct
-horse battery staple" using the EFF's word list.
+horse battery staple" using the EFF's dice word list.
 
 See [EFF Dice-Generated Passphrases](https://www.eff.org/dice) and the
 obligatory [XKCD](https://xkcd.com/936/) comic.
 
-Usage: `make-password.rb [number of words] [number of passwords]`
+Usage: `ruby make-password.rb [number of words] [number of passwords]`
 
 Example:
 ```
